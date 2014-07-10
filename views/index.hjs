@@ -1,0 +1,10 @@
+{{>header}}
+<!-- BEGIN INDEX BODY -->
+{{#user}}
+<p>Welcome back, {{user.username}}!    <a href="/logout">Logout</a></p>
+{{/user}}
+<h2>{{ title }}</h2> 
+{{{body}}}
+<!-- END INDEX BODY -->
+{{>footer}}
+
